@@ -1,5 +1,5 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Shield, AlertTriangle, Users, Bug, Ban, UserX, BellAlert, DollarSign, RotateCcw, UserMinus, Bot, HandCoins, MessageSquare, UserPlus, BookOpen, Swords, FileWarning, Scale } from "lucide-react";
+import { Shield, AlertTriangle, Users, Bug, Ban, UserX, BellRing, DollarSign, RotateCcw, UserMinus, Bot, HandCoins, MessageSquare, UserPlus, BookOpen, Swords, FileWarning, Scale } from "lucide-react";
 
 const rules = [
   {
@@ -28,7 +28,7 @@ const rules = [
     content: "Mengganggu permainan orang lain, termasuk tetapi tidak terbatas pada, trolling, griefing, atau tindakan yang merugikan pengalaman bermain orang lain adalah dilarang."
   },
   {
-    icon: <BellAlert className="w-5 h-5" />,
+    icon: <BellRing className="w-5 h-5" />,
     title: "6. PENTINGNYA MELAPORKAN MASALAH",
     content: "Jika Anda menemukan masalah, bug, atau perilaku yang tidak pantas, harap laporkan kepada staff atau admin server secepatnya."
   },
