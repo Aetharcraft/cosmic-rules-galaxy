@@ -51,18 +51,31 @@
 }
 
 .rule-card {
-  @apply bg-secondary/50 backdrop-blur-sm rounded-lg p-6 transition-all duration-300 hover:bg-secondary/70;
+  @apply bg-secondary/50 backdrop-blur-sm rounded-lg p-6 transition-all duration-300;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .rule-title {
-  @apply text-xl font-bold mb-4 text-primary flex items-center gap-2;
+  @apply text-xl font-bold mb-4 flex items-center gap-2;
 }
 
 .rule-content {
   @apply text-muted-foreground leading-relaxed;
 }
 
-.intro-text {
-  @apply text-lg text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto;
+/* Add glow effects */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(56, 189, 248, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(56, 189, 248, 0.2);
+  }
+}
+
+.glow {
+  animation: glow 3s infinite;
 }
