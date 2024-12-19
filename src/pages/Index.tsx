@@ -4,8 +4,16 @@ import Rules from "@/components/Rules";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background bg-[url('https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&q=80')] bg-cover bg-center bg-fixed bg-no-repeat">
-      <div className="relative min-h-screen backdrop-blur-sm bg-background/90">
+    <div className="min-h-screen bg-background relative overflow-hidden">
+      {/* Animated stars background */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+      </div>
+      
+      {/* Content with blur overlay */}
+      <div className="relative min-h-screen backdrop-blur-sm bg-background/80">
         <Header />
         <main className="container mx-auto px-4">
           <Rules />
