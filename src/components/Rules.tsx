@@ -8,19 +8,19 @@ const rules = {
       content: "Penggunaan cheat, modifikasi ilegal, atau program pihak ketiga yang memberikan keuntungan tidak diperbolehkan di server. Ini termasuk hack client, auto-clicker, atau script yang memanipulasi permainan untuk keuntungan pribadi."
     },
     {
-      title: "3. LARANGAN MEMANFAATKAN BUG ATAU CELAH",
+      title: "2. LARANGAN MEMANFAATKAN BUG ATAU CELAH",
       content: "Dilarang keras memanfaatkan bug atau celah dalam permainan untuk mendapatkan keuntungan yang tidak seharusnya. Jika menemukan bug, segera laporkan kepada staff atau admin server agar dapat diperbaiki."
     },
     {
-      title: "4. TIDAK DI PERBOLEHKAN PENCURIAN DAN GRIEFING",
+      title: "3. TIDAK DI PERBOLEHKAN PENCURIAN DAN GRIEFING",
       content: "Larangan mencuri barang atau item milik pemain lain tanpa izin, serta merusak atau menghancurkan bangunan, properti dan hiasan tanpa izin."
     },
     {
-      title: "11. DILARANG MENGGUNAKAN BOT ATAU PROGRAM OTOMATIS",
+      title: "4. DILARANG MENGGUNAKAN BOT ATAU PROGRAM OTOMATIS",
       content: "Penggunaan bot atau program otomatis untuk mengotomatiskan tugas dalam permainan atau chat sangat dilarang. Ini mencakup penggunaan macro atau skrip yang memberikan keuntungan tidak adil."
     },
     {
-      title: "17. TIDAK DIPERBOLEHKAN MENGGUNAKAN MULTI-ACCOUNT",
+      title: "5. TIDAK DIPERBOLEHKAN MENGGUNAKAN MULTI-ACCOUNT",
       content: "Penggunaan beberapa akun untuk tujuan curang, seperti untuk memanipulasi sistem, mendapatkan keuntungan yang tidak adil, atau menghindari sanksi sangat dilarang. Setiap pemain hanya diperbolehkan memiliki satu akun di server."
     }
   ],
